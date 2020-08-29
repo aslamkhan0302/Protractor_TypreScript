@@ -1,0 +1,72 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "start a new application in angular",
+    "line": 1,
+    "id": "start-a-new-application-in-angular",
+    "tags": [],
+    "uri": "features\\angular.feature",
+    "elements": [
+      {
+        "id": "start-a-new-application-in-angular;hello-world-angular",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Hello World angular",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "i will navigate to angular home Page",
+            "match": {
+              "location": "features\\step_definitions\\ang_cucumber.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "getting started is selected",
+            "match": {
+              "location": "features\\step_definitions\\ang_cucumber.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Angular Docs should be navigated",
+            "match": {
+              "location": "features\\step_definitions\\ang_cucumber.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
